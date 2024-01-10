@@ -1,3 +1,3 @@
-console.log("hello world!");
-
-alert("hellow world!")
+function tdClicked(){
+  console.log("Click!!")
+};
