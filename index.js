@@ -4,6 +4,7 @@ console.log("Default value of bool is" ,playerOneTurn)
 
 function toggle() {
   playerOneTurn = !playerOneTurn;
+  
 
   console.log("It's Player one's turn!", playerOneTurn);
 }
