@@ -14,17 +14,17 @@ function startGame() {
 
 
 
-function tdClicked(event){
+function tdClicked(id){
   const click = "This thing on?"
   console.log(click)
   if(playerOneTurn === true) {
-    document.getElementById("markX").innerHTML = "X"
+    document.getElementById(id).innerHTML = "X"
     document.getElementById("playerIndicator").innerHTML = "Player 2, It's you're turn!"
     toggle()
   } else {
-    document.getElementById("markX").innerHTML = "O"
+    document.getElementById(id).innerHTML = "O"
     document.getElementById("playerIndicator").innerHTML = "Player 1, It's you're turn!"
     toggle()
   }
-  event.stopPropagation()
+
 };
