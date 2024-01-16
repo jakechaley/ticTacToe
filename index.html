@@ -26,7 +26,7 @@
       <td id="markX" onclick="tdClicked(event);"></td>
     </tr>
   </table>
-  <button onclick="toggle()">Start Game</button>
-  <div id="playerIndicator"></div>
+  <button onclick="startGame()">Start Game</button>
+  <div onload="document.getElementById('playerIndicator').innerHTML = 'Player 1, Its youre turn!'" id="playerIndicator"></div>
 </body>
 </html>
